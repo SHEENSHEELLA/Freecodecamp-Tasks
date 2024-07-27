@@ -12,3 +12,9 @@ console.log(secondCharacter)
 // Step 11
 secondCharacter = 'Test'
 secondCharacter = character
+
+// Step 13
+let profession = 'teacher'
+let age
+console.log(profession)
+console.log(age)
