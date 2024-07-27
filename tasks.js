@@ -30,3 +30,11 @@ let rows = []
 
 //step 19
 rows = ['Naomi', 'Quincy', 'CamperChan']
+
+//step 20
+console.log(rows[0])
+
+//step 21
+rows[2] = 10
+console.log(rows)
+
