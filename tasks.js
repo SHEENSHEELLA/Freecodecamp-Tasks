@@ -4,3 +4,7 @@ console.log(character)
 character = 'World'
 let secondCharacter
 console.log(secondCharacter)
+
+// Step 10
+secondCharacter = 'Test'
+console.log(secondCharacter)
