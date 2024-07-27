@@ -21,3 +21,6 @@ console.log(age)
 
 //step 15
 let count = 8
+
+//step 16
+console.log(count + 1)
