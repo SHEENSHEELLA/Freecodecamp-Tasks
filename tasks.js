@@ -27,3 +27,6 @@ console.log(count + 1)
 
 //step 18
 let rows = []
+
+//step 19
+rows = ['Naomi', 'Quincy', 'CamperChan']
