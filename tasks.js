@@ -24,3 +24,6 @@ let count = 8
 
 //step 16
 console.log(count + 1)
+
+//step 18
+let rows = []
