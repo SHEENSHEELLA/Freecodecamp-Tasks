@@ -38,3 +38,5 @@ console.log(rows[0])
 rows[2] = 10
 console.log(rows)
 
+//step 22
+rows[rows.length - 1] = 10
