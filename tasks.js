@@ -48,5 +48,8 @@ cities[cities.length - 1] = 'Mexico City'
 console.log(cities)
 
 //step 26
-rows.push("freeCodeCamp");
-console.log(rows);
+
+//step 27
+let popped = rows.pop()
+console.log(rows)
+console.log(popped)
