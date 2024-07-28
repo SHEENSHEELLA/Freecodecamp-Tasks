@@ -53,3 +53,8 @@ console.log(cities)
 let popped = rows.pop()
 console.log(rows)
 console.log(popped)
+
+//step 33
+for ('iterator'; 'condition'; 'iteration') {
+  logic
+}
