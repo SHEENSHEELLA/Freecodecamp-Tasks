@@ -63,3 +63,8 @@ for ('iterator'; 'condition'; 'iteration') {
 for (let i = 0; i < count; i = i + 1) {
   console.log(i)
 }
+
+//step 38
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i)
+}
