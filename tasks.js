@@ -106,3 +106,10 @@ function addTwoNumbers(firstNumber, secondNumber) {
 
 const sum = addTwoNumbers(5, 10)
 console.log(sum)
+
+//step 61
+function padRow() {
+  const test = "Testing";
+
+  return test;
+}
