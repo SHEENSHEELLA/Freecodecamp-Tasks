@@ -127,3 +127,7 @@ function padRow(rowNumber, rowCount) {
     ' '.repeat(rowCount - rowNumber)
   )
 }
+
+//step 76
+//In JavaScript, you can use // to leave a single-line comment in your code.
+
