@@ -90,3 +90,6 @@ for (let i = 0; i < count; i = i + 1) {
 
 //step 47
 function padRow() {}
+
+//step 49
+const call = padRow()
