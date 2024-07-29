@@ -109,7 +109,12 @@ console.log(sum)
 
 //step 61
 function padRow() {
-  const test = "Testing";
+  const test = 'Testing'
 
-  return test;
+  return test
+}
+
+//step 67
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(padRow(i + 1, count))
 }
