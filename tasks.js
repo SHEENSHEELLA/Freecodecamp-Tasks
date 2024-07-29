@@ -93,3 +93,16 @@ function padRow() {}
 
 //step 49
 const call = padRow()
+
+//step 51
+function padRow() {
+  return 'Hello!'
+}
+
+//step 55
+function addTwoNumbers(firstNumber, secondNumber) {
+  return firstNumber + secondNumber
+}
+
+const sum = addTwoNumbers(5, 10)
+console.log(sum)
