@@ -72,3 +72,8 @@ for (let i = 0; i < count; i = i + 1) {
 //step 41
 for (const row of rows) {
 }
+
+//step 42
+for (const row of rows) {
+  result = row + result
+}
