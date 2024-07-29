@@ -58,3 +58,8 @@ console.log(popped)
 for ('iterator'; 'condition'; 'iteration') {
   logic
 }
+
+//step 37
+for (let i = 0; i < count; i = i + 1) {
+  console.log(i)
+}
