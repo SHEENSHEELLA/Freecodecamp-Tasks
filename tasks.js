@@ -131,3 +131,7 @@ function padRow(rowNumber, rowCount) {
 //step 76
 //In JavaScript, you can use // to leave a single-line comment in your code.
 
+//step 77
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
