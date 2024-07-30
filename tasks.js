@@ -164,3 +164,7 @@ while (continueLoop) {}
 while (continueLoop) {
   done++
 }
+
+//step 88
+if (done === count) {
+}
