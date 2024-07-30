@@ -192,3 +192,6 @@ console.log(numbers)
 //step 107
 const unshifted = numbers.unshift(5)
 console.log(unshifted)
+
+//step 112
+let inverted = true
