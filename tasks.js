@@ -188,3 +188,7 @@ for (let i = count; i > 0; i = i - 1) {
 //step 106
 const numbers = [1, 2, 3]
 console.log(numbers)
+
+//step 107
+const unshifted = numbers.unshift(5)
+console.log(unshifted)
