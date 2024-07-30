@@ -176,3 +176,6 @@ rows.push(padRow(done, count))
 while (rows.length < count) {
   rows.push(padRow(rows.length + 1, count))
 }
+
+//step 100
+for (let i = count; i > 0; false) {}
