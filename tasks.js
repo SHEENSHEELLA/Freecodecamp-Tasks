@@ -152,3 +152,7 @@ if ('') {
 } else if (5 < 10) {
   console.log('5 is less than 10')
 }
+
+//step 84
+let continueLoop = false
+let done = 0
