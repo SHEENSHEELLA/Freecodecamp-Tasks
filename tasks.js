@@ -140,3 +140,8 @@ function padRow(rowNumber, rowCount) {
 if (true) {
   console.log('Condition is true')
 }
+
+//step 80
+if ('false') {
+  console.log('Condition is true')
+}
