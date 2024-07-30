@@ -42,3 +42,21 @@ function getGrade(score) {
 console.log(getGrade(96))
 console.log(getGrade(82))
 console.log(getGrade(56))
+
+//step 3
+function hasPassingGrade(score) {
+  const result = getGrade(score)
+  if (result !== 'F') {
+    return true
+  }
+  return false
+}
+
+console.log(hasPassingGrade(100))
+console.log(hasPassingGrade(53))
+console.log(hasPassingGrade(87))
+
+//another solution
+function hasPassingGrade(score) {
+  return getGrade(score) !== 'F'
+}
