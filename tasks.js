@@ -184,3 +184,7 @@ for (let i = count; i > 0; false) {}
 for (let i = count; i > 0; i = i - 1) {
   rows.push(padRow(i, count))
 }
+
+//step 106
+const numbers = [1, 2, 3]
+console.log(numbers)
