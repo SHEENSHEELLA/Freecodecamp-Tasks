@@ -145,3 +145,10 @@ if (true) {
 if ('false') {
   console.log('Condition is true')
 }
+
+//step 82
+if ('') {
+  console.log('Condition is true')
+} else if (5 < 10) {
+  console.log('5 is less than 10')
+}
