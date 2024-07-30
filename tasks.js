@@ -195,3 +195,6 @@ console.log(unshifted)
 
 //step 112
 let inverted = true
+
+//step 118
+//finish Learn Introductory JavaScript by Building a Pyramid Generator
