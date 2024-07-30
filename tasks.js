@@ -168,3 +168,6 @@ while (continueLoop) {
 //step 88
 if (done === count) {
 }
+
+//step 90
+rows.push(padRow(done, count))
