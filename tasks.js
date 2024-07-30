@@ -159,3 +159,8 @@ let done = 0
 
 //step 85
 while (continueLoop) {}
+
+//step 86
+while (continueLoop) {
+  done++
+}
