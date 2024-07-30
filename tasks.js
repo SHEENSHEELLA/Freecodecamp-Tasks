@@ -171,3 +171,8 @@ if (done === count) {
 
 //step 90
 rows.push(padRow(done, count))
+
+//step 97
+while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count))
+}
