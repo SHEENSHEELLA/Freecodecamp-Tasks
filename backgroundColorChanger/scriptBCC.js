@@ -20,4 +20,12 @@ function getRandomIndex() {
 const body = document.querySelector('body')
 const bgHexCodeSpanElement = document.querySelector('#bg-hex-code')
 
-console.log(bgHexCodeSpanElement)
+function changeBackgroundColor() {
+  const color = darkColorsArr[getRandomIndex()]
+
+  bgHexCodeSpanElement.innerText = color
+  body.style.backgroundColor = color
+}
+
+const btn = document.querySelector('#btn')
+console.log(btn)
