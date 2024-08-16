@@ -87,12 +87,8 @@ let userData = {
   songCurrentTime: 0,
 }
 
-const printGreeting = () => {
-  console.log('Hello there!')
+const renderSongs = (array) => {
+  const songsHTML = array.map((song) => {
+    return `<li id="song-${song.id}" class="playlist-song"></li>`
+  })
 }
-
-printGreeting('freeCodeCamp')
-
-const addTwoNumbers = (num1, num2) => num1 + num2
-
-console.log(addTwoNumbers(3, 4))
