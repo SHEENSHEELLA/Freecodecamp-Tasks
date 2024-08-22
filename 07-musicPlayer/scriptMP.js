@@ -123,6 +123,8 @@ const playPreviousSong = () => {
     return
   } else {
     const currentSongIndex = getCurrentSongIndex()
+    const previousSong = userData?.songs[currentSongIndex - 1]
+    playSong(previousSong.id)
   }
 }
 
@@ -161,6 +163,8 @@ playButton.addEventListener('click', () => {
 pauseButton.addEventListener('click', pauseSong)
 
 nextButton.addEventListener('click', playNextSong)
+
+previousButton.addEventListener("click", playPreviousSong);
 
 const sortSongs = () => {
   userData?.songs.sort((a, b) => {
