@@ -100,7 +100,8 @@ const playSong = (id) => {
   userData.currentSong = song
   playButton.classList.add('playing')
   highlightCurrentSong()
-  playSong(setPlayerDisplay())
+  setPlayerDisplay()
+  setPlayButtonAccessibleText()
   audio.play()
 }
 
