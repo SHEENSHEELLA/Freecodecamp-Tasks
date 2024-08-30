@@ -4,7 +4,6 @@ const checkBtn = document.getElementById('check-btn')
 console.log(textInput)
 console.log(checkBtn)
 
-
 checkBtn.addEventListener('click', () => {
   if (textInput.value.trim() === '') {
     alert('Please input a value')
@@ -18,7 +17,7 @@ checkBtn.addEventListener('click', () => {
 
 function checkPalindrome(str) {
   // Приведение строки к нижнему регистру и удаление всех символов, кроме букв и цифр
-  const cleanedStr = str.toLowerCase().replace(/[^a-z0-9]/g, '')
+  const cleanedStr = str.toLowerCase().replace(/[^a-zа-я0-9]/g, '')
   // Сравнение очищенной строки с её перевёрнутой версией
   return cleanedStr === cleanedStr.split('').reverse().join('')
 }
