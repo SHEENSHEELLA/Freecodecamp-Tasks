@@ -1,6 +1,9 @@
 const currentDateParagraph = document.getElementById('current-date')
 const dateOptionsSelectElement = document.getElementById('date-options')
 
+console.log(dateOptionsSelectElement)
+console.log(dateOptionsSelectElement.value)
+
 const date = new Date()
 const day = date.getDate()
 const month = date.getMonth() + 1
@@ -12,3 +15,10 @@ const formattedDate = `${day}-${month}-${year}`
 currentDateParagraph.textContent = formattedDate
 
 dateOptionsSelectElement.addEventListener('change', () => {})
+
+switch (dateOptionsSelectElement.value) {
+  case "yyyy-mm-dd":
+    currentDateParagraph.textContent = formattedDate
+      .split("-")
+      .reverse().join("-")
+}
